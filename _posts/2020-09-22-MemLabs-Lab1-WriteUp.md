@@ -1,3 +1,7 @@
+layout: page
+title: "MemLabs Lab 1 WriteUp"
+date: 2020-09-22 13:00:00 -0000
+
 # MemLabs Lab 1 WriteUp
 
 ## Overview - Beginner's Luck
