@@ -60,3 +60,9 @@ Let's try running unrar again and give it the hash.
 Woo hoo! It works! Opening up the image shows us this:
 
 ![Flag 3](/images/memlab-lab1/f10.png)
+
+## Conclusion
+So the three flags are 
+* flag{th1s_1s_th3_1st_st4g3!!} - from the command line
+* flag{g00d_BoY_good_girL} - from the MS Paint screen
+* flag{w3ll_3rd_stage_was_easy} - from a RAR file
