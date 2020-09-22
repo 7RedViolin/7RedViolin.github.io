@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: default
 title: "MemLabs Lab 1 WriteUp"
 date: 2020-09-22 13:00:00 -0000
 ---
