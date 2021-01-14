@@ -4,7 +4,7 @@ title: "KringleCon 3: French Hens WriteUp - Part 2"
 date: 2021-01-13 21:00:00 -0600
 ---
 # KringleCon 3: French Hens WriteUp - Part 2
-![Logo](/images/kringlecon2020_obj/logo.png)  
+![Logo](/images/kringlecon2020_obj/logo.PNG)  
 ## Introduction
 Welcome back! Here's part two of my write up for the 2020 Holiday Hack Challenge. This will be dedicated to the side quests and will include not only solutions but also references I used to solve the problems. I didn’t make it through all the available problems but what I did complete is outlined here.
 
