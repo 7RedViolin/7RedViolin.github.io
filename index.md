@@ -1,5 +1,5 @@
 # Welcome!
-* [2021-02-04 MemLabs Lab4 WriteUp](_posts/2021-02-04-MemLabs-Lab4-WriteUp.md)
+* [2021-02-04 MemLabs Lab 4 WriteUp](_posts/2021-02-04-MemLabs-Lab4-WriteUp.md)
 * [2021-01-28 MemLabs Lab 3 WriteUp](_posts/2021-01-28-MemLabs-Lab3-WriteUp.md)
 * [2021-01-23 MemLabs Lab 2 WriteUp](_posts/2021-01-23-MemLabs-Lab2-WriteUp.md)
 * [2021-01-13 KringleCon 2020 WriteUp Part 2](_posts/2021-01-13-KringleCon-2020-WriteUp-Pt2.md)
