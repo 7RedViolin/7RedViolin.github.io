@@ -1,3 +1,5 @@
+plugins:
+  - jekyll-feed
 theme: jekyll-theme-midnight
 title: "7RedViolin's Blog"
 description: DFIR Thoughts & CTF Writeups
