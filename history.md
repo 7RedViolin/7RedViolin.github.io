@@ -1,6 +1,7 @@
 # history
 
 ## 2021
+* [2021-03-31 UMass CTF 2021 WriteUp](_posts/2021-03-31-UMassCTF-2021-WriteUp.md)
 * [2021-03-17 UTCTF 2021 WriteUp](_posts/2021-03-17-UTCTF-2021-WriteUp.md)
 * [2021-03-10 Expand Ubuntu Partition HowTo](_posts/2021-03-10-Expand-Ubuntu-Partition-HowTo.md)
 * [2021-02-23 MetaSpike CTF WriteUp](_posts/2021-02-23-MetaSpike-CTF-WriteUp.md)
