@@ -14,7 +14,17 @@ I focused on the forensic and miscellaneous challenges which were above beginner
 >Our department had taken up the responsibility of solving a mysterious case but unfortunately our system crashed. We could only recover this memory dump. Your job is get all the important files from the system and use the files to find out the secret information.  
 >Note : The flag consists of 3 parts.
 
-Apart from determining the OS, my first step was to take inventory of the running processes using the `plist` command. The processes `winrar.exe`, `cmd.exe`, and `iexplore.exe` caught my eye.
+Apart from determining the OS, my first step was to take inventory of the running processes using the `pslist` command. The processes `cmd.exe`, `iexplore.exe`, and `winrar.exe` caught my eye.
+
+```
+$ vol.py -f image.vmem --profile=Win7SP1x64 pslist
+Offset(V)          Name                    PID   PPID   Thds     Hnds   Sess  Wow64 Start                          Exit                          
+------------------ -------------------- ------ ------ ------ -------- ------ ------ ------------------------------ ------------------------------
+0xfffffa801ab60630 cmd.exe                1708   1080      1       19      1      0 2021-04-03 05:09:57 UTC+0000                                 
+0xfffffa8019a1f970 iexplore.exe           2980    568     17      361      1      0 2021-04-03 05:10:45 UTC+0000                                 
+0xfffffa801a729720 iexplore.exe           1092   2980     16      327      1      0 2021-04-03 05:10:46 UTC+0000 
+0xfffffa8019cbc760 WinRAR.exe             2836   1080     12      406      1      0 2021-04-03 05:10:38 UTC+0000
+```
 
 ### Part I
 
@@ -97,6 +107,7 @@ b2,r,msb,xy         .. text: "}UUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUU
 ```
 
 ### Part III
+
 Pivoting to the `cmdline` tool, I was able to see what the `winrar.exe` process was doing.
 
 ```
@@ -116,7 +127,7 @@ Offset(P)            #Ptr   #Hnd Access Name
 0x000000007ec2c970      2      0 R--r-- \Device\HarddiskVolume1\Users\alexander\Downloads\L4ST.py.zip
 ```
 
-Dumping the file via `dumpfiles`, I unzipped the archive and found a python script (insert link here).
+Dumping the file via `dumpfiles`, I unzipped the archive and found a [python script](/supporting_files/shaktictf2021/L4ST.py).
 
 ```
 $ vol.py -f image.vmem --profile=Win7SP1x64 dumpfiles -Q 0x000000007ec2c970 -D ./
@@ -132,7 +143,7 @@ yhvydvik
 try again:/
 ``` 
 
-I noticed it appears to use a simple substitution cipher, so I ran the script again and entered the full alphabet with some special characters.
+I noticed it appeared to use a simple substitution cipher, so I ran the script again and entered the full alphabet with some special characters.
 
 ```
 Enter input:  
@@ -143,7 +154,7 @@ try again:/
 
 A closer look at the script showed I needed to enter a string that, when encoded, would equal `uh27bio:uY<xrA.`.
 
-My conversion list above showed I needed to enter the string `pe/4_dj7pQ9uo<+` to get the third portion of the flag.
+I was then able to use the conversion list above to find the string `pe/4_dj7pQ9uo<+` that would give me the third portion of the flag.
 
 ```
 Enter input:  pe/4_dj7pQ9uo<+
@@ -154,4 +165,4 @@ th15_ch4lL3ng3!}
 
 ## Final Answer
 
-Putting all the pieces together gave me the flag `shaktictf{H0p3_y0U_l1k3d_th15_ch4lL3ng3!}`
+Putting all the pieces together resulted in the flag `shaktictf{H0p3_y0U_l1k3d_th15_ch4lL3ng3!}`
