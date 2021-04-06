@@ -1,7 +1,7 @@
 ---
 layout: default
 title: "Shakti CTF 2021 Help Me Challenge WriteUp"
-date: 2021-03-31 13:00:00 -0000
+date: 2021-04-05 13:00:00 -0000
 ---
 
 # Shakti CTF 2021 Help Me Challenge WriteUp
