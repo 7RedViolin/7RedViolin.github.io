@@ -1,5 +1,6 @@
 # Welcome!
 
+* [2021-04-14 Ransomware Thoughts](_posts/2021-04-14-Ransomware-Prevention-Recovery-Notes.md)
 * [2021-04-06 Shakti CTF 2021 Pillow Challenge WriteUp](_posts/2021-04-06-ShaktiCTF-2021-Pillow-WriteUp.md)
 * [2021-04-05 Shakti CTF 2021 Help Me Challenge WriteUp](_posts/2021-04-05-ShaktiCTF-2021-HelpMe-WriteUp.md)
 * [2021-03-31 UMass CTF 2021 WriteUp](_posts/2021-03-31-UMassCTF-2021-WriteUp.md)
