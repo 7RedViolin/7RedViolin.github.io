@@ -52,7 +52,7 @@ Last but certainly not least comes the incident response (IR) plan. When ransomw
 Similar to a vulnerability management program mentioned earlier, an IR plan can be as simple or complex as needed. I've seen them run the gamut of "call person X if something bad happens" to full-fledged responsibilities matrices for different types of incidents.
 
 ## Further Reading
-* [Red Canary | How to choose an EDR](https://redcanary.com/blog/evaluating-edr-security-products/)
-* [CISA | 1-2-3 Backup Rule](https://us-cert.cisa.gov/sites/default/files/publications/data_backup_options.pdf)
-* [Infocyte | Incident Response Planning](https://www.infocyte.com/blog/2019/11/07/incident-response-planning-a-checklist-for-building-your-cyber-security-incident-response-plan/)
-* [Amazon.com | Book on Incident Response & Computer Forensics](https://www.amazon.com/Incident-Response-Computer-Forensics-Third/dp/0071798684/ref=asc_df_0071798684/?tag=hyprod-20&linkCode=df0&hvadid=312091457223&hvpos=&hvnetw=g&hvrand=8943101042194686727&hvpone=&hvptwo=&hvqmt=&hvdev=c&hvdvcmdl=&hvlocint=&hvlocphy=9023473&hvtargid=pla-464897074962&psc=1&tag=&ref=&adgrpid=62820903995&hvpone=&hvptwo=&hvadid=312091457223&hvpos=&hvnetw=g&hvrand=8943101042194686727&hvqmt=&hvdev=c&hvdvcmdl=&hvlocint=&hvlocphy=9023473&hvtargid=pla-464897074962)
+* [Red Canary - How to choose an EDR](https://redcanary.com/blog/evaluating-edr-security-products/)
+* [CISA - 1-2-3 Backup Rule](https://us-cert.cisa.gov/sites/default/files/publications/data_backup_options.pdf)
+* [Infocyte - Incident Response Planning](https://www.infocyte.com/blog/2019/11/07/incident-response-planning-a-checklist-for-building-your-cyber-security-incident-response-plan/)
+* [Amazon.com - Book on Incident Response & Computer Forensics](https://www.amazon.com/Incident-Response-Computer-Forensics-Third/dp/0071798684/ref=asc_df_0071798684/?tag=hyprod-20&linkCode=df0&hvadid=312091457223&hvpos=&hvnetw=g&hvrand=8943101042194686727&hvpone=&hvptwo=&hvqmt=&hvdev=c&hvdvcmdl=&hvlocint=&hvlocphy=9023473&hvtargid=pla-464897074962&psc=1&tag=&ref=&adgrpid=62820903995&hvpone=&hvptwo=&hvadid=312091457223&hvpos=&hvnetw=g&hvrand=8943101042194686727&hvqmt=&hvdev=c&hvdvcmdl=&hvlocint=&hvlocphy=9023473&hvtargid=pla-464897074962)
