@@ -13,3 +13,13 @@ This blog has everything from CTF write ups to red/blue team advice to cyber sec
 
 * [Click All The Things](https://clickallthethings.wordpress.com/)  
 A great blog to learn how to analyze maldocs.
+
+* [Awesome Twitter Accounts](https://twitter.com)  
+In no particular order - This is far from a complete list but it's a great starting point for anyone who wants to watch for cyber-related tweets.
+    * [@likethecoins](https://twitter.com/likethecoins) - Threat Intel
+    * [@sansforensics](https://twitter.com/sansforensics) - General DFIR News
+    * [@hacks4pancakes](https://twitter.com/hacks4pancakes) - ICS & DFIR
+    * [@B1N2H3X](https://twitter.com/B1N2H3X) - DFIR
+    * [@cyb3rops](https://twitter.com/cyb3rops) - Threat Intel
+    * [@jstrosch](https://twitter.com/jstrosch) - Threat Intel
+    * [@ForensicITGuy](https://twitter.com/ForensicITGuy) - Digital Forensics & Threat Intel
