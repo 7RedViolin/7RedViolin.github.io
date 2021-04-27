@@ -1,7 +1,7 @@
 ---
 layout: default
 title: "Ransomware Thoughts"
-date: 2021-04-14 13:00:00 -0000
+date: 2021-04-26 13:00:00 -0000
 ---
 
 # HacktheBox Challenge: Persistence
@@ -12,7 +12,7 @@ Shout-out to ShaktiCon for the HtB voucher after competing in their CTF earlier 
 
 ## Background
 
-Persistence: You've probably already guessed the defintion given the context the method used by legitimate software (or malware) to _persist_ on a machine and continues to run even after a restart/shutdown.
+Persistence: You've probably already guessed the defintion given the context. This is the method used by legitimate software (or malware) to _persist_ on a machine and continues to run even after a restart/shutdown.
 
 This way, even if you successfully remove the malicious file(s) but the persistence mechanism isn't deleted as well, the machine can continue to be re-infected.
 
