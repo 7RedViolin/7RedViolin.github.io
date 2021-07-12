@@ -1,11 +1,10 @@
 ---
-layout: default
-title: "Ransomware Thoughts"
+layout: page
+title: "HtB: Persistence"
 date: 2021-04-26 13:00:00 -0000
+tags: ctf forensics
+intro: I recently got access to retired Hack the Box challenges and decided to provide write-ups as well as explanations of the forensics concepts behind the challenge. This is the first post in what will hopefully become a series on DFIR concepts.
 ---
-
-# HacktheBox Challenge: Persistence
-
 I recently got access to retired Hack the Box challenges and decided to provide write-ups as well as explanations of the forensics concepts behind the challenge. This is the first post in what will hopefully become a series on DFIR concepts.
 
 Shout-out to ShaktiCon for the HtB voucher after competing in their CTF earlier this month! 

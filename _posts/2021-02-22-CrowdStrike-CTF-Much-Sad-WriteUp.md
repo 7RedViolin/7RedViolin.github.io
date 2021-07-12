@@ -1,10 +1,10 @@
 ---
-layout: default
+layout: page
 title: "CrowdStrike CTF - Much Sad"
 date: 2021-02-22 21:00:00 -0600
+tags: ctf osint
+intro: Earlier this year, CrowdStrike hosted a CTF centered around three advanced persistent threats. The focus was mainly reverse engineering and binary analysis but there was an OSINT challenge in the `CATAPULT SPIDER` APT group that piqued my interest called "Much Sad".
 ---
-# CrowdStrike CTF - Much Sad
-
 ## Intro
 
 Earlier this year, CrowdStrike hosted a CTF centered around three advanced persistent threats. The focus was mainly reverse engineering and binary analysis but there was an OSINT challenge in the `CATAPULT SPIDER` APT group that piqued my interest called "Much Sad".

@@ -1,11 +1,10 @@
 ---
-layout: default
+layout: page
 title: "UMass CTF 2021 WriteUp"
 date: 2021-03-31 13:00:00 -0000
+tags: ctf forensics memory steganography
+intro: My write up of some of the the UMASS CTF puzzles.
 ---
-
-# UMass CTF 2021 WriteUp
-
 ## Notes challenge
 > The breach seems to have originated from this host. Can you find the user's mistake? Here is a memory image of their workstation from that day.  
 > http://static.ctf.umasscybersec.org/forensics/13096721-bb26-4b79-956f-3f0cddebd49b/image.mem

@@ -1,11 +1,10 @@
 ---
-layout: default
+layout: page
 title: "Expand Ubuntu Partition HowTo"
 date: 2021-03-10 13:00:00 -0000
+tags: howto vm lab
+intro: I recently made a basic Ubuntu VM with only 20GB of hard disk space and assumed I would only use it for light testing. As time went on, though, I eventually got the point where I wanted to install REMnux and SIFT on that box rather than create a whole new VM and space was becoming an issue.
 ---
-
-# Expand Ubuntu Partition HowTo
-
 I recently made a basic Ubuntu VM with only 20GB of hard disk space and assumed I would only use it for light testing. As time went on, though, I eventually got the point where I wanted to install REMnux and SIFT on that box rather than create a whole new VM and space was becoming an issue.
 
 So, I began by deleting all snapshots and increasing the VM  size settings by 40GB. However, this new space was still marked "unallocated" and wasn't automatically added to the existing partition. After a lot of trial and error, this is what ended up working for me:

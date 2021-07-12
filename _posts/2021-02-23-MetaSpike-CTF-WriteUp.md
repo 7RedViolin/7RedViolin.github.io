@@ -1,11 +1,10 @@
 ---
-layout: default
+layout: page
 title: "MetaSpike CTF - (Un)authorized Access & The REST is History"
 date: 2021-02-23 21:00:00 -0600
+tags: email ctf api
+intro: Over the last couple months, MetaSpike hosted an email forensics CTF. I wasn't able to get in on it until the very end but I enjoyed the puzzles they presented. It's rare to find CTFs dedicated to a specific area of forensics so I was excited to try out the challenges.
 ---
-
-# MetaSpike CTF - (Un)authorized Access & The REST is History
-
 Over the last couple months, MetaSpike hosted an email forensics CTF. I wasn't able to get in on it until the very end but I enjoyed the puzzles they presented. It's rare to find CTFs dedicated to a specific area of forensics so I was excited to try out the challenges.
 
 The ones I focused on were related to Google APIs. However, if you're curious about the earlier puzzles, Phill Moore has excellent write ups that can be found on his [ThinkDFIR blog](https://thinkdfir.com/).

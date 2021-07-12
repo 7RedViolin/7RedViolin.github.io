@@ -1,11 +1,10 @@
 ---
-layout: default
+layout: page
 title: "Ransomware Thoughts"
 date: 2021-04-14 13:00:00 -0000
+tags: ransomware
+intro: With ransomware being an ever-present threat, I thought I'd jot down some best practices I've come across to prevent and, if the worst should happen, recover from such an attack. This is far from a comprehensive list but can be a jumping-off point when developing a new plan or updating existing processes and procedures.
 ---
-
-# Ransomware Thoughts
-
 With ransomware being an ever-present threat, I thought I'd jot down some best practices I've come across to prevent and, if the worst should happen, recover from such an attack. This is far from a comprehensive list but can be a jumping-off point when developing a new plan or updating existing processes and procedures.
 
 ## Vulnerability Management & Patching

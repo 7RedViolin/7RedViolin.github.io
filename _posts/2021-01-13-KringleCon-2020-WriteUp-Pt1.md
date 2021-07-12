@@ -1,9 +1,10 @@
 ---
-layout: default
+layout: page
 title: "KringleCon 3: French Hens WriteUp - Part 1"
 date: 2021-01-13 21:00:00 -0600
+tags: ctf steganography iot cloud web splunk network cryptography
+intro: During the holiday break, I spent quite a few evenings working through the 2020 Holiday Hack Challenge (aka KringleCon 3 French Hens). If you aren't familiar with the Holiday Hack Challenges, I highly recommend checking them out. This and past CTFs are available year-round for review and provide ways to learn new skills ranging from threat hunting to web exploits to steganography. The problems really run the gamut of cyber topics!
 ---
-# KringleCon 3: French Hens WriteUp - Part 1
 ![](/images/kringlecon2020_obj/logo.PNG)
 ## Introduction
 During the holiday break, I spent quite a few evenings working through the 2020 Holiday Hack Challenge (aka KringleCon 3: French Hens). If you aren't familiar with the Holiday Hack Challenges, I highly recommend checking them out. This and past CTFs are available year-round for review and provide ways to learn new skills ranging from threat hunting to web exploits to steganography. The problems really run the gamut of cyber topics!

@@ -1,10 +1,10 @@
 ---
-layout: default
+layout: page
 title: "MemLabs Lab 3 WriteUp"
 date: 2021-01-28 21:00:00 -0600
+tags: memory ctf forensics
+intro: This write up will cover the third memory challenge published on GitHub and managed by stuxnet9999 (aka Abhiram Kumar)
 ---
-# MemLabs Lab 3 WriteUp
-
 ## Intro
 This write up will cover the third memory challenge published on GitHub and managed by [stuxnet9999 (aka Abhiram Kumar)](https://github.com/stuxnet999/MemLabs/tree/master/Lab%203).
 

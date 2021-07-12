@@ -1,10 +1,10 @@
 ---
-layout: default
+layout: page
 title: "Ekoparty 2020 CTF WriteUp"
 date: 2020-09-28 13:00:00 -0000
+tags: ctf forensics network email
+intro: Last week, I decided to participate in the Ekoparty CTF. This was organized by an Argentina-based conference that hosts speakers, trainings, and CTFs each year with topics ranging from traditional Red/Blue Team to IoT and ICS. This was an opportunity to practice and learn more about reverse engineering and malware analysis. 
 ---
-# Ekoparty 2020 CTF WriteUp
-
 ## Overview
 
 Last week, I decided to participate in the Ekoparty CTF. This was organized by an Argentina-based conference that hosts speakers, trainings, and CTFs each year with topics ranging from traditional Red/Blue Team to IoT and ICS. This was an opportunity to practice and learn more about reverse engineering and malware analysis.  

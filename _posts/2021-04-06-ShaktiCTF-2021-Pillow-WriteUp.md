@@ -1,12 +1,11 @@
 ---
-layout: default
+layout: page
 title: "Shakti CTF 2021 Pillow Challenge WriteUp"
 date: 2021-04-06 13:00:00 -0000
+tags: ctf coding
+intro: This was an awesome beginner CTF that has an accompanying conference called ShaktiCon - a free international conference dedicated to women in cybersecurity. This specific puzzle required some python coding skills.
 ---
-
-# Shakti CTF 2021 Pillow Challenge WriteUp
-
-This was an awesome beginner CTF that has an accompanying conference called [ShaktiCon](https://shakticon.com/). This is an free international conference dedicated to women in cybersecurity.
+This was an awesome beginner CTF that has an accompanying conference called [ShaktiCon](https://shakticon.com/). This is a free international conference dedicated to women in cybersecurity.
 
 I focused on the forensic and miscellaneous challenges which were above beginner but not, from my experience, fully intermediate-level. I plan to attend next year and would highly recommend this to others.
 

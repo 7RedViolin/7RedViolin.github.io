@@ -1,10 +1,10 @@
 ---
-layout: default
+layout: page
 title: "MemLabs Lab 4 WriteUp"
 date: 2021-02-04 21:00:00 -0600
+tags: memory ctf forensics
+intro: This write up will cover the fourth memory challenge published on GitHub and managed by stuxnet9999.
 ---
-# MemLabs Lab 4 WriteUp
-
 ## Intro
 This write up will cover the fourth memory challenge published on GitHub and managed by [stuxnet9999](https://github.com/stuxnet999/MemLabs/tree/master/Lab%204).
 
