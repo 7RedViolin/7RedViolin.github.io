@@ -1,5 +1,7 @@
-# whoami
-
+---
+layout: page
+title: whoami
+---
 This is my cybersecurity blog to store writups, research, tutorials, and links for future reference.
 
 I'm mainly focused on studying digital forensics and incident response (DFIR) with experience working with SIEM and EDR technology. I also practice small coding projects using PowerShell, Python, and C#.

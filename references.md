@@ -1,5 +1,7 @@
-# references
-
+---
+layout: page
+title: references
+---
 These are blogs and articles I've found particularly useful and interesting in no particular order.
 
 * [This Week In 4n6](https://thisweekin4n6.com/)  
