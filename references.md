@@ -16,12 +16,17 @@ This blog has everything from CTF write ups to red/blue team advice to cyber sec
 * [Click All The Things](https://clickallthethings.wordpress.com/)  
 A great blog to learn how to analyze maldocs.
 
-* [Awesome Twitter Accounts](https://twitter.com)  
-In no particular order - This is far from a complete list but it's a great starting point for anyone who wants to watch for cyber-related tweets.
-    * [@likethecoins](https://twitter.com/likethecoins) - Threat Intel
-    * [@sansforensics](https://twitter.com/sansforensics) - General DFIR News
-    * [@hacks4pancakes](https://twitter.com/hacks4pancakes) - ICS & DFIR
-    * [@B1N2H3X](https://twitter.com/B1N2H3X) - DFIR
-    * [@cyb3rops](https://twitter.com/cyb3rops) - Threat Intel
-    * [@jstrosch](https://twitter.com/jstrosch) - Threat Intel
-    * [@ForensicITGuy](https://twitter.com/ForensicITGuy) - Digital Forensics & Threat Intel
+* macOS-specific references
+    * [TheEvilBit](https://theevilbit.github.io/posts/) by [@theevilbit](https://twitter.com/theevilbit/)
+    * [Objective-See](https://objective-see.com/)  by [@patrickwardle](https://twitter.com/patrickwardle)
+    * [mac4n6](http://www.mac4n6.com/) by [@iamevltwin](https://twitter.com/iamevltwin)
+    * [OSX Incident Response](https://www.amazon.com/OS-Incident-Response-Scripting-Analysis-ebook/dp/B01FHOHHVS) by [@jbradley89](https://twitter.com/jbradley89)
+
+Last but not least, here's a far from complete list of awesome Twitter accounts in no particular order. These are some great people to follow if you want to stay updated on cyber-related news.
+* [@likethecoins](https://twitter.com/likethecoins) - Threat Intel
+* [@sansforensics](https://twitter.com/sansforensics) - General DFIR News
+* [@hacks4pancakes](https://twitter.com/hacks4pancakes) - ICS & DFIR
+* [@B1N2H3X](https://twitter.com/B1N2H3X) - DFIR
+* [@cyb3rops](https://twitter.com/cyb3rops) - Threat Intel
+* [@jstrosch](https://twitter.com/jstrosch) - Threat Intel
+* [@ForensicITGuy](https://twitter.com/ForensicITGuy) - Digital Forensics & Threat Intel  
