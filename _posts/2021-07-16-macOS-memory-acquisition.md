@@ -14,8 +14,8 @@ This can be done by going into `Settings > Security & Privacy > Privacy` and und
 2. Make sure the OSXPMem app is on an external drive with enough free space to capture all the RAM.
 3. In the target machine's Terminal, change to the root account using `sudo su`.
 4. Change the owner of the OSXPMem to root:wheel using the command `chown -R root:wheel osxpmem.app`
-5. To bypass SIP (system integrity protection), remove the quarantine extended attribute on the osxpmem.app folder and all its contents using the command `xattr -r -d com.apple.quarantine osxpmem.app`
+5. To bypass GateKeeper, remove the quarantine extended attribute on the osxpmem.app folder and all its contents using the command `xattr -r -d com.apple.quarantine osxpmem.app`
 6. To dump memory into a raw format that can be used by Volatility, run the command `sudo osxpmem.app/osxpmem -o [location/name of output].raw --format raw`
 You may get a pop saying the OSXPMem application was blocked. You'll need to go into `Settings > Security & Privacy` and under `General`, make sure you've allowed the block application to run. Afterwards, run step 6 again.
 
-*Updated Oct 13, 2021 - Clarify the restrictions for certain macOS versions*
+*Updated Oct 14, 2021 - Clarify the restrictions for certain macOS versions*
