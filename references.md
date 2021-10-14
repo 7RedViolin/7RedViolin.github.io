@@ -7,6 +7,9 @@ These are blogs and articles I've found particularly useful and interesting in n
 * [This Week In 4n6](https://thisweekin4n6.com/)  
 A collection of blog posts, articles, podcasts etc. covering topics such as DFIR, threat hunting and malware analysis.
 
+* [The DFIR Report](https://thedfirreport.com/)  
+Write ups on in the wild (ITW) malware examples that can include reverse engineering results, detection opportunties, and impact as seen in honeypot or actual production systems. 
+
 * [Dfir.blog](https://dfir.blog/)  
 A great place for documentation on tools and forensic artifact analysis.
 
