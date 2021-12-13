@@ -84,7 +84,7 @@ Going to GitHub, there were several repositories but the one most interesting wa
 
 ![](/images/crowdstrike2020/github.png)
 
-```
+```html
 <html>
   <head>
     <title>1 DOGE = 1 DOGE</title>

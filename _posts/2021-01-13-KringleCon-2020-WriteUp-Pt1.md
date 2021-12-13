@@ -6,15 +6,20 @@ tags: ctf steganography iot cloud web splunk network cryptography
 intro: During the holiday break, I spent quite a few evenings working through the 2020 Holiday Hack Challenge (aka KringleCon 3 French Hens). If you aren't familiar with the Holiday Hack Challenges, I highly recommend checking them out. This and past CTFs are available year-round for review and provide ways to learn new skills ranging from threat hunting to web exploits to steganography. The problems really run the gamut of cyber topics!
 ---
 ![](/images/kringlecon2020_obj/logo.PNG)
+
 ## Introduction
 During the holiday break, I spent quite a few evenings working through the 2020 Holiday Hack Challenge (aka KringleCon 3: French Hens). If you aren't familiar with the Holiday Hack Challenges, I highly recommend checking them out. This and past CTFs are available year-round for review and provide ways to learn new skills ranging from threat hunting to web exploits to steganography. The problems really run the gamut of cyber topics!
 
 Now, on to this year's challenge! This write up will be broken into two parts: Objectives and Side Quests. This part will be focused on objectives and will include not only solutions but also references I used to solve the problems. Unfortunately, I didn’t make it through all the available problems but what I did complete is outlined here. Below is the narrative I unlocked for solving 10 ½ out of the possible 11 objectives.  
 ![Narrative poem](/images/kringlecon2020_obj/narrative_poem.png)  
+
 ## Objectives & Walkthroughs
+
 ### Objective 1: Uncover Santa's Gift List
+
 #### Description
 There is a photo of Santa’s desk on that billboard with his personal gift list. What gift is Santa planning on getting Josh Wright for the holidays? Talk to Jingle Ringford at the bottom of the mountain for advice.
+
 #### Solution
 Before I made my way to the castle, I saw the billboard advertising the North Pole on the highway and grabbed a copy of the image.  
 ![Image of Santa's desk](/images/kringlecon2020_obj/kringlecon2020_obj/obj1_original.png)  
@@ -31,8 +36,10 @@ https://www.gimp.org/
 https://docs.gimp.org/2.4/en/plug-in-whirl-pinch.html
 
 ### Objective 2: Investigate S3 Bucket
+
 #### Description
 When you unwrap the over-wrapped file, what text string is inside the package? Talk to Shinny Upatree in front of the castle for hints on this challenge.
+
 #### Solution
 ![S3 Bucket Site](/images/kringlecon2020_obj/obj2_scene.png)  
 For this puzzle, I started by finding a “good” bucket name . . .  
@@ -66,6 +73,7 @@ https://linux.die.net/man/1/uncompress
 https://www.systutorials.com/docs/linux/man/1-xxd/  
 
 ### Objective 3: Point-Of-Sale Password Recovery
+
 #### Description
 Help Sugarplum Mary in the Courtyard find the supervisor password for the point-of-sale terminal. What’s the password?
 
@@ -91,6 +99,7 @@ Answer: **Santapass**
 https://medium.com/how-to-electron/how-to-get-source-code-of-any-electron-application-cbb5c7726c37
 
 ### Objective 4: Operate the Santavator
+
 #### Description
 Talk to Pepper Minstix in the entryway to get some hints about the Santavator.
 
@@ -111,6 +120,7 @@ After figuring out the “hack”, I did come across the rest of the pieces and 
 ![](/images/kringlecon2020_obj/obj4_config3.png)  
 
 ### Objective 5: Open HID Lock
+
 #### Description
 Open the HID lock in the Workshop. Talk to Bushy Evergreen near the talk tracks for hints on the challenge. You may also visit Fitzy Shortstack in the kitchen for tips.
 
@@ -130,6 +140,7 @@ At the end of the room, there were some spooky floating lights that, once I reac
 ![](/images/kringlecon2020_obj/obj5_santa.png)  
 
 ### Objective 6: Splunk Challenge
+
 #### Description
 Access the Splunk terminal in the Great Room. What is the name of the adversary group that Santa feared would attack KringleCon?  
 ![](/images/kringlecon2020_obj/obj6_scene.png)  
@@ -208,8 +219,10 @@ https://www.youtube.com/watch?v=qbIhHhRKQCw
 https://www.youtube.com/watch?v=RxVgEFt08kU
 
 ### Objective 7: Solve the Sleigh’s CAN-D-BUS Problem
+
 #### Description
 Jack Frost is somehow inserting malicious messages onto the sleigh’s CAN-D bus. We need you to exclude the malicious messages and no others to fix the sleigh. Visit the NetWars room on the roof and talk to Wunorse Openslae for hits.
+
 #### Solution
 ![](/images/kringlecon2020_obj/obj7_scene.png)  
 This required a lot of trial and error but I soon figured out the following:  
@@ -234,6 +247,7 @@ Using these notes, I was able to exclude the noise with the filters below.
 https://www.youtube.com/watch?v=96u-uHRBI0I
 
 ### Objective 8: Broken Tag Generator
+
 #### Description
 Help Noel Boetie fix the Tag Generator in the Wrapping Room. What value is the environment variable GREETZ? Talk to Holly Evergreen in the kitchen for help with this.
 
@@ -256,6 +270,7 @@ Answer: **JackFrostWasHere**
 https://stackoverflow.com/questions/532155/linux-where-are-environment-variables-stored
 
 ### Objective 9: ARP Shenanigans
+
 #### Description
 Go to the NetWars room on the roof and help Alabaster Snowball get access back to a host using ARP. Retrieve the document at /NORTH_POLE_Land_Use_Board_Meeting_Minutes.txt. Who recused herself from the vote described on the document?
 
@@ -314,6 +329,7 @@ https://www.netsparker.com/blog/web-security/understanding-reverse-shells/
 https://blog.travismclarke.com/post/socat-tutorial/#:~:text=Socat%20is%20a%20command%20line,and%20transfers%20data%20between%20them  
 
 ### Objective 10: Defeat Fingerprint Sensor
+
 #### Description
 Bypass the Santavator fingerprint sensor. Enter Santa’s office without Santa’s fingerprint.
 
@@ -322,6 +338,7 @@ For this problem, I went back to the Santavator JavaScript and noticed it checke
 ![](/images/kringlecon2020_obj/obj10_code.png)  
 
 ### Objective 11a: Naughty/Nice List with Blockchain Investigation Part 1
+
 #### Description
 Description
 Even though the chunk of the blockchain that you have ends with block 129996, can you predict the nonce for block 130000? Talk to Tangle Coalbox in the Speaker UNpreparedness Room for tips on prediction and Tinsel Upatree for more tips and tools. (Enter just the 16-character hex value of the nonce)

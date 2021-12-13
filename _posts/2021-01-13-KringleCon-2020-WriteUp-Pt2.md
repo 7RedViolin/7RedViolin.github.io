@@ -168,7 +168,7 @@ This puzzle required some JavaScript knowledge to get the video game elf to the 
 than 2 elf commands.
 
 **Code:**  
-```
+```javascript
 elf.moveLeft(10)  
 elf.moveUp(10)
 ```
@@ -181,7 +181,7 @@ than 5 elf command/function execution statements in your code.
 **Lever Objective:** Add 2 to the numeric value of the running function elf.get_lever(0)
 
 **Code:**
-```  
+```javascript
 elf.moveTo(lever[0])  
 elf.pull_lever(elf.get_lever(0) + 2)  
 elf.moveLeft(4)  
@@ -194,7 +194,7 @@ elf.moveUp(10)
 than 4 elf command/function execution statements in your code.  
 
 **Code:**  
-```
+```javascript
 elf.moveTo(lollipop[0])  
 elf.moveTo(lollipop[1])  
 elf.moveTo(lollipop[2])  
@@ -207,7 +207,7 @@ elf.moveUp(1)
 than 6 elf command/function execution statements in your code.  
 
 **Code:**  
-```
+```javascript
 elf.moveLeft(1)  
 for (i = 0; i <= 4; i++) {  
   elf.moveUp(40)  
@@ -226,7 +226,7 @@ than 5 elf command/function execution statements in your code.
 the munchkin.  
 
 **Code:**
-```
+```javascript
 elf.moveTo(lollipop[1])
 elf.moveTo(lollipop[0])
 elf.tell_munch(elf.ask_munch(0).filter(word =>
@@ -244,7 +244,7 @@ Munchkin Objective: Find the key in the provided JSON object with the value “l
 and return to the munchkin.  
 
 **Code (for Lever):**
-```
+```javascript
 for (i = 0; i < 4; i++) {
   elf.moveTo(lollipop[i])
 }
@@ -256,7 +256,7 @@ elf.moveUp(40)
 ```
 
 **Code (for Munchkin):**
-```
+```javascript
 for (i = 0; i < 4; i++) {
   elf.moveTo(lollipop[i])
 }
@@ -269,6 +269,7 @@ for (x in temp) {
 }
 elf.moveUp(40)
 ```
+
 **Challenge 7 (Bonus 1)**
 ![](/images/kringlecon2020_sidequests/elf_coder_challenge7.png)  
 **Restrictions:** Program the elf to the end goal in no more than 25 lines of code and no more than 10 elf command/function execution statements in your code. Note elf.moveTo(object) has been disabled for this challenge.  
@@ -278,7 +279,7 @@ elf.moveUp(40)
 **Munchkin Objective:** Create a function that will accept one object – a randomized array containing arrays of strings and numbers. The function must iterate over the array and its child arrays and return the total sum of adding all the numbers in all the child arrays.
 
 **Code:**
-```
+```javascript
 function munchkin_solver(temp) {
   var result = 0;
   for (i = 0; i < temp.length; i++) {
@@ -303,6 +304,7 @@ elf.moveLeft(4)
 elf.tell_munch(munchkin_solver)
 elf.moveUp(40)
 ```
+
 **Challenge 8 (Bonus 2)**
 ![](/images/kringlecon2020_sidequests/elf_coder_challenge8.png)
 **Restrictions:** Program the elf to the end goal in no more than 40 lines of code and no more than 10 elf command/function execution statements in your code. Note elf.moveTo(object) function has been disabled for this challenge.
@@ -312,7 +314,7 @@ elf.moveUp(40)
 **Munchkin Objective:** Create a function that will accept one object – a randomized array containing json objects. The function must iterate over the array of json objects and return the key contains the value “lollipop”.
 
 **Code:**
-```
+```javascript
 function munchkin_solver(temp) {
   var result = ""
   for (i = 0; i < temp.length; i++) {
@@ -339,6 +341,7 @@ for (i = 1; i < 7; i++) {
 elf.tell_munch(munchkin_solver)
 elf.moveRight(40)
 ```
+
 ### References
 https://developer.mozilla.org/enUS/docs/Web/JavaScript/Reference/Global_Objects/Array/filter  
 https://developer.mozilla.org/enUS/docs/Web/JavaScript/Reference/Global_Objects/Number/isInteger  
@@ -347,6 +350,7 @@ https://www.w3schools.com/js/js_json_objects.asp
 
 ## Snowball Game – Tangle Coalbox
 ![](/images/kringlecon2020_sidequests/snowball_scene.png)
+
 ### Solution
 For this puzzle, the goal is to beat the Snowball Fight game on the Impossible Level. However, at that level, the computer never misses so I have to somehow know the answers in advance.  
 ![](/images/kringlecon2020_sidequests/snowball_opening.png)  
@@ -360,5 +364,6 @@ With the player name in hand, I opened another instance of the snowball game in 
 ![](/images/kringlecon2020_sidequests/snowball_answer1.png)  
 Once I was entered the final square (6,9), I won the game!  
 ![](/images/kringlecon2020_sidequests/snowball_answer2.png)  
+
 ### References
 https://github.com/kmyk/mersenne-twister-predictor

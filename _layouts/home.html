@@ -12,17 +12,19 @@ layout: default
     {% endif %}
 
     {%- if posts.size > 0 -%}
-        {%- assign date_format = site.minima.date_format | default: "%B %-d, %Y" -%}
         {%- for post in posts -%}
-
             <h2>
                 <a href="{{ post.url | relative_url }}">
                     {{ post.title | escape }}
                 </a>
-            </h2>
+            </h2> 
             <span>Posted:
-                {{ post.date | date: date_format }}
+                {% include date.html %}
+            </span> | 
+            <span>
+                ~ {% include read_time.html %} read time
             </span>
+            <br/>
             <span>
                 {% for tag in post.tags %}
                     <a href="/tags#{{ tag }}">#{{ tag }}</a>
@@ -33,8 +35,8 @@ layout: default
                 <em>{{ post.intro | strip_html | escape | truncate: 300}}</em>
             </medium>
             <br/>
+            ================================================================
             <br/>
-
         {%- endfor -%}
 
         <br/>

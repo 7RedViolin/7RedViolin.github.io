@@ -11,7 +11,7 @@ To document my learning, I decided to start a blog series of the different foren
 <div>
     <ul>
         {%- for post in site.tags.macOS -%}
-            <li><a href="{{post.url}}">{{ post.title }}</a></li>
+            <li><a href="{{post.url}}">{{ post.title }}</a> | {% include date.html %}</li>
         {%- endfor -%}
     </ul>
 </div>
@@ -27,13 +27,13 @@ A security feature starting in Catalina (i think???) that prevents unknown/unsig
 Short for `kernel extension`, a KEXT file can be used to access the kernel and read data such as memory. These are being deprecated in BigSur (macOS 11) in favor of system extensions. The logic behind the change is to limit kernel-level access.
 - **Launch Agent**  
 Apple's method for application persistence at the user level. Processes run via Launch Agents will run with the given user's permissions with the configurations and parameters definied in one of the following directories: `~/Library/LaunchAgents`, `/Library/LaunchAgents`, or `/System/Library/LaunchAgents`
-- **Launch Daemon**
+- **Launch Daemon**  
 Apple's method for application peristence at the system level. Processes run via Launch Daemons will run with system-level permissions with the configurations and parameters defined in one of the following directories: `/Library/LaunchDaemons` or `/System/Library/LaunchDaemons`
-- **launchd**
+- **launchd**  
 This is the root process that will always have a PID of 1. All future processes will be spawned from `launchd`.
 - **mach-o binary**  
 The format of an standalone executable on a macOS device.
-- **osascript**
+- **osascript**  
 Similar to wscript or cscript on a Windows machine, osascript is used to run scripts and commonly abused by adversaries. Supported languages include X, Y, Z. 
 - **plist**  
 Short for `property list` contains information similar to registry hives on Windows machines. These files may or may not have the `.plist` extension but you can always identify them by the file header. They can also be XML or binary formatted. Native to macOS, you can use the command `plutil -p FILENAME` to view the contents.

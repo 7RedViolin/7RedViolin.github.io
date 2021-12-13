@@ -2,8 +2,9 @@ plugins:
   - jekyll-feed
   - jekyll-paginate
   - jekyll-seo-tag
-theme: jekyll-theme-midnight
-title: "7RedViolin's Blog"
+  - jemoji
+theme: jekyll-theme-minimal
+title: "7RedViolin Blog"
 description: DFIR Thoughts & CTF Writeups
 
 paginate: 10

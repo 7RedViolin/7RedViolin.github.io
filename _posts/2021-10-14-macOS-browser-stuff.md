@@ -24,6 +24,7 @@ The artifacts I've called out are far from comprehensive but are what I consider
     - `History` A SQLite database containing URLs, timestamps, visit counts, etc.
 - EDR process name `Google Chrome` and `Google Chrome Helper`
     - On macOS, the process `Google Chrome Helper` will contain data related to ad traffic and any other similar connections to remote servers. All other netconns and filemods should be tied to the `Google Chrome` process name. 
+
 ## Mozilla Firefox
 - Location `~/Library/Application/Support/Mozilla/Firefox/****.default/` with `***` being a randomized alphanumeric string of varying length
 - Artifacts

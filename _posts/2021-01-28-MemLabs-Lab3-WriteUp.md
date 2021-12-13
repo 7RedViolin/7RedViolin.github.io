@@ -80,8 +80,7 @@ base64: invalid input
 ```
 I then opened the evilscript_py_py.dat file and found the string is both base64 and XOR encoded.
 
-```
-$ cat evilscript_py_py.dat
+```python
 import sys
 import string
 
@@ -102,8 +101,7 @@ if __name__ == "__main__":
 
 To reverse the script . . .
 
-```
-$ cat decode_script.py
+```python
 import sys
 import string
 
