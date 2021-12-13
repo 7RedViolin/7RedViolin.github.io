@@ -1,7 +1,13 @@
 ---
 layout: default
 ---
-
+<style>    
+    /* Dotted border */
+    hr.dotted {
+      border-top: 3px dotted #bbb;
+      width: 100%;
+    }
+</style>
 <div>
     {{ content }}
 
@@ -35,8 +41,7 @@ layout: default
                 <em>{{ post.intro | strip_html | escape | truncate: 300}}</em>
             </medium>
             <br/>
-            ================================================================
-            <br/>
+            <hr class="dotted">
         {%- endfor -%}
 
         <br/>
