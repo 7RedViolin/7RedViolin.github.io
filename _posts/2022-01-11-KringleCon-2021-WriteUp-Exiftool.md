@@ -1,7 +1,7 @@
 ---
 layout: page
 title: "KringleCon 4: Four Calling Birds WriteUp - ExifTool"
-date: 2022-01-11 21:00:00 -0600
+date: 2022-01-11 21:00:00 -0500
 tags: ctf kringlecon-2021 forensics
 intro: How to quickly search metadata of multiple files
 ---
