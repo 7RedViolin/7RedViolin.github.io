@@ -36,7 +36,7 @@ Since the above formula will only give integers for certain numbers, we'll need 
 - `real_no * 10` = Basically moves the decimal one space to the right (e.g. 2.3 becomes 23)
 - `$rtoi()` = Converts a real number to an integer (e.g. 2.34 becomes 2)
 - `$rtoi(real_no * 10)` = Converts to an integer after moving the decimal one space to the right (e.g. 2.34 becomes 23)
-- `$rtoi(real_no) * 10` = Moves the decimal two spaces after converting to an integer (e.g. 2.345 becomes 20)
+- `$rtoi(real_no) * 10` = Moves the decimal once space after converting to an integer (e.g. 2.345 becomes 20)
 - By subtracing the two previous operations, we pull out the decimal value (e.g. 23 - 20 = 3). If the result is greater than four, we round up one. Otherwise, we leave the number as-is.
 
 Using the sample program from the YouTube video and the above math, we're able to dynamically alter the clock frequency.
