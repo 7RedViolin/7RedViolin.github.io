@@ -3,7 +3,7 @@ layout: page
 title: "KringleCon 4: Four Calling Birds WriteUp - Now Hiring!"
 date: 2022-01-21 21:00:00 -0500
 tags: ctf kringlecon-2021 web aws
-intro: 
+intro: Web testing and SSRF
 ---
 
 ## Objective: Now Hiring!
