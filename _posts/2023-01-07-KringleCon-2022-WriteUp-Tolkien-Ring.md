@@ -1,7 +1,7 @@
 ---
 layout: page
 title: "KringleCon 5: Five Golden Rings WriteUp - Tolkien Ring"
-date: 2023-01-25 21:00:00 -0500
+date: 2023-01-07 21:00:00 -0500
 tags: ctf kringlecon-2022 eventlogs pcap wireshark powershell suricata
 intro: Digging through logs for evil
 ---
