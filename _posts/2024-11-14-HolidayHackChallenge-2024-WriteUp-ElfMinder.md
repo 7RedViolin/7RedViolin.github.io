@@ -1,7 +1,7 @@
 ---
 layout: page
 title: "Holiday Hack Challenge 2024 WriteUp - ElfMinder"
-date: 2024-11-14 21:00:00 -0500
+date: 2024-11-13 21:00:00 -0500
 tags: ctf hhc-2024 web
 intro: Assist Poinsettia McMittens with playing a game of Elf Minder 9000.
 ---
@@ -18,7 +18,7 @@ I've intentionally left the "Silver" objective out of this write up and, to quot
 
 We're then given the following layout and you'll notice there's no clear path to the finish flag since it's surrounded by boulders.
 
-![](../images/holidayhackchallenge2024/elfminder_1.png)
+![](/images/holidayhackchallenge2024/elfminder_1.png)
 
 I've heard rumors there's multiple ways to solve this and I'm still puzzling through the more "hacky" methods but in the meantime, here's the solution I used to complete the challenge.
 
@@ -29,7 +29,7 @@ First off, I noticed one the provided hints wasn't like the others and reference
 
 This sent me off on a quest to find comments (or TODO) items in the Javascript that suggest there may a bug or incomplete work. During that hunt, I found cool ascii art, an edit mode where you could build your own levels, and an awesome choice of variable name (`EMMEHGERDTICKSTHERESTICKSEVERYWHEREARHGHAHGREHUHGHH`). But ultimate, the piece of code I needed was in the `guide.js` file within the `getSpringTarget` function
 
-![](../images/holidayhackchallenge2024/elfminder_2.png)
+![](/images/holidayhackchallenge2024/elfminder_2.png)
 
 It took several debugging sessions to figure out this code tracked what direction you approached the spring and then would cycle through all possible points in that direction (either inline vertically or horizontally) to identify what path you could jump to. However, if the available path had an "entity" such as a tunnel or spring, it would default jump to `segment[0][0]`. 
 
@@ -39,4 +39,4 @@ I then reviewed how the `segment` array was built and discovered it depended on 
 
 Utlimately, my final set up looked like this:
 
-![](../images/holidayhackchallenge2024/elfminder_3.png)
+![](/images/holidayhackchallenge2024/elfminder_3.png)

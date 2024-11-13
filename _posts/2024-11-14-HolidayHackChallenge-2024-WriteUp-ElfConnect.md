@@ -1,7 +1,7 @@
 ---
 layout: page
 title: "Holiday Hack Challenge 2024 WriteUp - ElfConnect"
-date: 2024-11-14 21:00:00 -0500
+date: 2024-11-13 21:00:00 -0500
 tags: ctf hhc-2024 web
 intro: Help Angel Candysalt connect the dots in a game of connections. 
 ---
@@ -13,7 +13,7 @@ I liked this puzzle because there's two ways to go about solving for this. The f
 
 The second way to solve it is to view the web page via Developer Tools. When looking at the source code, I noticed the game was run completely on the client side and depended on a script to keep track of the keywords and solutions.
 
-![](../images/holidayhackchallenge2024/elfconnect_code_1.png)
+![](/images/holidayhackchallenge2024/elfconnect_code_1.png)
 
 The word bank was stored in the variable `wordSets` while the `correctSets` variable housed the solution using the index number of each keyword. The solution never changed from one word bank so that made it easy to track what keywords were grouped together.
 
@@ -65,8 +65,8 @@ Round 4
 
 For this objective, it was helpful to know everything was handled on the client side. Searching for the keyword `score`, I found the piece of code that increments the value by 100 after every correct answer.
 
-![](../images/holidayhackchallenge2024/elfconnect_code_2.png)
+![](/images/holidayhackchallenge2024/elfconnect_code_2.png)
 
 By opening the console and running the command `score = 50000`, I was able to override the initial value of 0 and start with the high score. Then, once I finished all the rounds using the cheatsheet from above, I was able to beat the high score and win the game!
 
-![](../images/holidayhackchallenge2024/elf_connect_4.png)
+![](/images/holidayhackchallenge2024/elf_connect_4.png)
