@@ -18,7 +18,8 @@ content-type: eg
 
 <div>
     {%- assign date_format = site.minima.date_format | default: "%b %-d, %Y" -%}
-    {% for tag in site.tags %}
+    {%- assign tag_list = site.tags | sort -%}
+    {% for tag in tag_list %}
     <div>
         <h3 id="{{ tag | first }}">{{ tag | first }}</h3>
         <ul>
