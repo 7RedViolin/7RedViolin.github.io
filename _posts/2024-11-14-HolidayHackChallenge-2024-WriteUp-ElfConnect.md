@@ -1,7 +1,7 @@
 ---
 layout: page
 title: "Holiday Hack Challenge 2024 WriteUp - ElfConnect"
-date: 2024-11-13 21:00:00 -0500
+date: 2024-11-14 21:00:00 -0500
 tags: ctf hhc-2024 web
 intro: Help Angel Candysalt connect the dots in a game of connections. 
 ---

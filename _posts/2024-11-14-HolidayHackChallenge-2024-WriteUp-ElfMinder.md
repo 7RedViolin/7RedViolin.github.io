@@ -1,7 +1,7 @@
 ---
 layout: page
 title: "Holiday Hack Challenge 2024 WriteUp - ElfMinder"
-date: 2024-11-13 21:00:00 -0500
+date: 2024-11-14 21:00:00 -0500
 tags: ctf hhc-2024 web
 intro: Assist Poinsettia McMittens with playing a game of Elf Minder 9000.
 ---
