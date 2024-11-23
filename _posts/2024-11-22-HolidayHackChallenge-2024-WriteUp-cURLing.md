@@ -71,4 +71,4 @@ curl https://curlingfun:9090/../../etc/hacks -k --path-as-is
 
 Instead of jumping right into running curl commands, I checked to see if there were any hints on the host machine by running `ls` and noticed there was a `HARD-MODE.txt` file with a hint on how to solve this new puzzle. Using what I learned in the Silver Objective, it was fairly straightforward to apply that information
 
-![](../images/holidayhackchallenge2024/curling_1.png)
+![](/images/holidayhackchallenge2024/curling_1.png)
