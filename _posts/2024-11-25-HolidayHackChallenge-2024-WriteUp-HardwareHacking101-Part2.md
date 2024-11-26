@@ -1,7 +1,7 @@
 ---
 layout: page
 title: "Holiday Hack Challenge 2024 WriteUp - Hardware Hacking 101 Part 2"
-date: 2024-11-22 21:00:00 -0500
+date: 2024-11-25 21:00:00 -0500
 tags: ctf hhc-2024 hardware
 intro: Santa’s gone missing, and the only way to track him is by accessing the Wish List in his chest—modify the access_cards database to gain entry!
 ---
